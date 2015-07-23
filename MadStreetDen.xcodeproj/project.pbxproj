@@ -23,9 +23,23 @@
 		2EFA71011B59FD5C00C91615 /* casual-dresses-mens-143.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EFA70FD1B59FD5C00C91615 /* casual-dresses-mens-143.jpg */; };
 		2EFA71021B59FD5C00C91615 /* best-casual-wear-for-men.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EFA70FE1B59FD5C00C91615 /* best-casual-wear-for-men.jpg */; };
 		2EFA71081B5A0DEB00C91615 /* Tricoloring.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFA71071B5A0DEB00C91615 /* Tricoloring.png */; };
+		3F283A391B61371600282684 /* TypeFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F283A381B61371600282684 /* TypeFilterViewController.m */; };
+		3F283A461B61375800282684 /* 1437593575_icon-ios7-camera-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F283A3A1B61375800282684 /* 1437593575_icon-ios7-camera-outline.png */; };
+		3F283A471B61375800282684 /* 1437593456_Assistant.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F283A3B1B61375800282684 /* 1437593456_Assistant.png */; };
+		3F283A481B61375800282684 /* 1437593372_alifashion012-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F283A3C1B61375800282684 /* 1437593372_alifashion012-512.png */; };
+		3F283A491B61375800282684 /* 1437593237_Trousers.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F283A3D1B61375800282684 /* 1437593237_Trousers.png */; };
+		3F283A4A1B61375800282684 /* 1437593199_alifashion014-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F283A3E1B61375800282684 /* 1437593199_alifashion014-512.png */; };
+		3F283A4B1B61375800282684 /* 1437593084_clothing_accesories_clothes_fabric-09.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F283A3F1B61375800282684 /* 1437593084_clothing_accesories_clothes_fabric-09.png */; };
+		3F283A4C1B61375800282684 /* 1437593061_clothing_accesories_clothes_fabric-18.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F283A401B61375800282684 /* 1437593061_clothing_accesories_clothes_fabric-18.png */; };
+		3F283A4D1B61375800282684 /* 1437592965_T-shirt.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F283A411B61375800282684 /* 1437592965_T-shirt.png */; };
+		3F283A4E1B61375800282684 /* 1437592879_user_female.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F283A421B61375800282684 /* 1437592879_user_female.png */; };
+		3F283A4F1B61375800282684 /* 1437592866_user_female3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F283A431B61375800282684 /* 1437592866_user_female3.png */; };
+		3F283A501B61375800282684 /* 1437592846_user_male3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F283A441B61375800282684 /* 1437592846_user_male3.png */; };
+		3F283A511B61375800282684 /* 1437592838_user_male.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F283A451B61375800282684 /* 1437592838_user_male.png */; };
 		3F2CFCB81B5E1F6C0045B9A7 /* ProductGridCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2CFCB61B5E1F6C0045B9A7 /* ProductGridCollectionViewCell.m */; };
 		3F2CFCB91B5E1F6C0045B9A7 /* ProductGridCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F2CFCB71B5E1F6C0045B9A7 /* ProductGridCollectionViewCell.xib */; };
 		3F2CFCBC1B5E398D0045B9A7 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2CFCBB1B5E398D0045B9A7 /* ProductDetailViewController.m */; };
+		3F42BDE51B613A30000B0191 /* 1437681890_45_Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F42BDE41B613A30000B0191 /* 1437681890_45_Menu.png */; };
 		3F9991381B60FBCA000834C6 /* CameraICon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9991371B60FBCA000834C6 /* CameraICon.png */; };
 		3FCE470A1B6112F300783F68 /* FavouriteIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCE47081B6112F300783F68 /* FavouriteIcon.png */; };
 		3FCE470B1B6112F300783F68 /* WhatsAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCE47091B6112F300783F68 /* WhatsAppIcon.png */; };
@@ -69,11 +83,26 @@
 		2EFA70FD1B59FD5C00C91615 /* casual-dresses-mens-143.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "casual-dresses-mens-143.jpg"; path = "Image Assets/casual-dresses-mens-143.jpg"; sourceTree = "<group>"; };
 		2EFA70FE1B59FD5C00C91615 /* best-casual-wear-for-men.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "best-casual-wear-for-men.jpg"; path = "Image Assets/best-casual-wear-for-men.jpg"; sourceTree = "<group>"; };
 		2EFA71071B5A0DEB00C91615 /* Tricoloring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tricoloring.png; sourceTree = "<group>"; };
+		3F283A371B61371600282684 /* TypeFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeFilterViewController.h; sourceTree = "<group>"; };
+		3F283A381B61371600282684 /* TypeFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeFilterViewController.m; sourceTree = "<group>"; };
+		3F283A3A1B61375800282684 /* 1437593575_icon-ios7-camera-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1437593575_icon-ios7-camera-outline.png"; sourceTree = "<group>"; };
+		3F283A3B1B61375800282684 /* 1437593456_Assistant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1437593456_Assistant.png; sourceTree = "<group>"; };
+		3F283A3C1B61375800282684 /* 1437593372_alifashion012-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1437593372_alifashion012-512.png"; sourceTree = "<group>"; };
+		3F283A3D1B61375800282684 /* 1437593237_Trousers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1437593237_Trousers.png; sourceTree = "<group>"; };
+		3F283A3E1B61375800282684 /* 1437593199_alifashion014-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1437593199_alifashion014-512.png"; sourceTree = "<group>"; };
+		3F283A3F1B61375800282684 /* 1437593084_clothing_accesories_clothes_fabric-09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1437593084_clothing_accesories_clothes_fabric-09.png"; sourceTree = "<group>"; };
+		3F283A401B61375800282684 /* 1437593061_clothing_accesories_clothes_fabric-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1437593061_clothing_accesories_clothes_fabric-18.png"; sourceTree = "<group>"; };
+		3F283A411B61375800282684 /* 1437592965_T-shirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1437592965_T-shirt.png"; sourceTree = "<group>"; };
+		3F283A421B61375800282684 /* 1437592879_user_female.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1437592879_user_female.png; sourceTree = "<group>"; };
+		3F283A431B61375800282684 /* 1437592866_user_female3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1437592866_user_female3.png; sourceTree = "<group>"; };
+		3F283A441B61375800282684 /* 1437592846_user_male3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1437592846_user_male3.png; sourceTree = "<group>"; };
+		3F283A451B61375800282684 /* 1437592838_user_male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1437592838_user_male.png; sourceTree = "<group>"; };
 		3F2CFCB51B5E1F6C0045B9A7 /* ProductGridCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductGridCollectionViewCell.h; path = CustomCell/ProductGridCollectionViewCell.h; sourceTree = "<group>"; };
 		3F2CFCB61B5E1F6C0045B9A7 /* ProductGridCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductGridCollectionViewCell.m; path = CustomCell/ProductGridCollectionViewCell.m; sourceTree = "<group>"; };
 		3F2CFCB71B5E1F6C0045B9A7 /* ProductGridCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProductGridCollectionViewCell.xib; path = CustomCell/ProductGridCollectionViewCell.xib; sourceTree = "<group>"; };
 		3F2CFCBA1B5E398D0045B9A7 /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductDetailViewController.h; path = ViewControllers/ProductDetailViewController.h; sourceTree = "<group>"; };
 		3F2CFCBB1B5E398D0045B9A7 /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductDetailViewController.m; path = ViewControllers/ProductDetailViewController.m; sourceTree = "<group>"; };
+		3F42BDE41B613A30000B0191 /* 1437681890_45_Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1437681890_45_Menu.png; sourceTree = "<group>"; };
 		3F9991371B60FBCA000834C6 /* CameraICon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CameraICon.png; sourceTree = "<group>"; };
 		3FCE47081B6112F300783F68 /* FavouriteIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FavouriteIcon.png; sourceTree = "<group>"; };
 		3FCE47091B6112F300783F68 /* WhatsAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhatsAppIcon.png; sourceTree = "<group>"; };
@@ -175,6 +204,8 @@
 				2EFA70DC1B5995BF00C91615 /* ProductListGridViewController.m */,
 				3F2CFCBA1B5E398D0045B9A7 /* ProductDetailViewController.h */,
 				3F2CFCBB1B5E398D0045B9A7 /* ProductDetailViewController.m */,
+				3F283A371B61371600282684 /* TypeFilterViewController.h */,
+				3F283A381B61371600282684 /* TypeFilterViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -191,6 +222,19 @@
 		2EFA70F21B59FB5800C91615 /* Image Assets */ = {
 			isa = PBXGroup;
 			children = (
+				3F42BDE41B613A30000B0191 /* 1437681890_45_Menu.png */,
+				3F283A3A1B61375800282684 /* 1437593575_icon-ios7-camera-outline.png */,
+				3F283A3B1B61375800282684 /* 1437593456_Assistant.png */,
+				3F283A3C1B61375800282684 /* 1437593372_alifashion012-512.png */,
+				3F283A3D1B61375800282684 /* 1437593237_Trousers.png */,
+				3F283A3E1B61375800282684 /* 1437593199_alifashion014-512.png */,
+				3F283A3F1B61375800282684 /* 1437593084_clothing_accesories_clothes_fabric-09.png */,
+				3F283A401B61375800282684 /* 1437593061_clothing_accesories_clothes_fabric-18.png */,
+				3F283A411B61375800282684 /* 1437592965_T-shirt.png */,
+				3F283A421B61375800282684 /* 1437592879_user_female.png */,
+				3F283A431B61375800282684 /* 1437592866_user_female3.png */,
+				3F283A441B61375800282684 /* 1437592846_user_male3.png */,
+				3F283A451B61375800282684 /* 1437592838_user_male.png */,
 				2EFA70FB1B59FD5C00C91615 /* casual-clothes-for-women-3.jpg */,
 				2EFA70FC1B59FD5C00C91615 /* casual-wear-for-men-2.jpg */,
 				2EFA70FD1B59FD5C00C91615 /* casual-dresses-mens-143.jpg */,
@@ -293,19 +337,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F283A4A1B61375800282684 /* 1437593199_alifashion014-512.png in Resources */,
 				2EFA70FF1B59FD5C00C91615 /* casual-clothes-for-women-3.jpg in Resources */,
 				2EFA71021B59FD5C00C91615 /* best-casual-wear-for-men.jpg in Resources */,
 				3F2CFCB91B5E1F6C0045B9A7 /* ProductGridCollectionViewCell.xib in Resources */,
 				3FCE470D1B61147300783F68 /* Favourites.png in Resources */,
+				3F283A4F1B61375800282684 /* 1437592866_user_female3.png in Resources */,
 				2EFA70C11B5994BA00C91615 /* Main.storyboard in Resources */,
+				3F283A4C1B61375800282684 /* 1437593061_clothing_accesories_clothes_fabric-18.png in Resources */,
 				3FCE470B1B6112F300783F68 /* WhatsAppIcon.png in Resources */,
+				3F283A471B61375800282684 /* 1437593456_Assistant.png in Resources */,
 				2EFA71011B59FD5C00C91615 /* casual-dresses-mens-143.jpg in Resources */,
+				3F283A481B61375800282684 /* 1437593372_alifashion012-512.png in Resources */,
+				3F283A4D1B61375800282684 /* 1437592965_T-shirt.png in Resources */,
 				3F9991381B60FBCA000834C6 /* CameraICon.png in Resources */,
 				3FCE470A1B6112F300783F68 /* FavouriteIcon.png in Resources */,
+				3F283A491B61375800282684 /* 1437593237_Trousers.png in Resources */,
 				2EFA70C61B5994BA00C91615 /* LaunchScreen.xib in Resources */,
 				2EFA70C31B5994BA00C91615 /* Images.xcassets in Resources */,
 				2EFA71081B5A0DEB00C91615 /* Tricoloring.png in Resources */,
+				3F283A511B61375800282684 /* 1437592838_user_male.png in Resources */,
 				2EFA71001B59FD5C00C91615 /* casual-wear-for-men-2.jpg in Resources */,
+				3F283A501B61375800282684 /* 1437592846_user_male3.png in Resources */,
+				3F283A461B61375800282684 /* 1437593575_icon-ios7-camera-outline.png in Resources */,
+				3F283A4B1B61375800282684 /* 1437593084_clothing_accesories_clothes_fabric-09.png in Resources */,
+				3F42BDE51B613A30000B0191 /* 1437681890_45_Menu.png in Resources */,
+				3F283A4E1B61375800282684 /* 1437592879_user_female.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +384,7 @@
 				2EFA70E01B59976D00C91615 /* BaseViewController.m in Sources */,
 				2EFA70BB1B5994BA00C91615 /* MadStreetDen.xcdatamodeld in Sources */,
 				3F2CFCBC1B5E398D0045B9A7 /* ProductDetailViewController.m in Sources */,
+				3F283A391B61371600282684 /* TypeFilterViewController.m in Sources */,
 				3F2CFCB81B5E1F6C0045B9A7 /* ProductGridCollectionViewCell.m in Sources */,
 				2EFA70DD1B5995BF00C91615 /* ProductListGridViewController.m in Sources */,
 				2EFA70BE1B5994BA00C91615 /* ViewController.m in Sources */,
