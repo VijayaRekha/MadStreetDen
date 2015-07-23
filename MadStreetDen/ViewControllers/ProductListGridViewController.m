@@ -8,6 +8,7 @@
 
 #import "ProductListGridViewController.h"
 #import "ProductGridCollectionViewCell.h"
+#import "TypeFilterViewController.h"
 
 @interface ProductListGridViewController ()
 
@@ -26,6 +27,7 @@
     
     [productCollection registerNib:[UINib nibWithNibName:@"ProductGridCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:@"ProductGridCell"];
     [self setUpRightBarButton];
+    [self setUpLeftBarButton];
     
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
     [flowLayout setItemSize:CGSizeMake(150, 255)];
@@ -47,6 +49,18 @@
     UIBarButtonItem *cameraBtn = [[UIBarButtonItem alloc] initWithCustomView:customBtn];
     [self.navigationItem setRightBarButtonItem:cameraBtn];
 
+}
+
+-(void) setUpLeftBarButton{
+    
+    
+    UIButton *customBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [customBtn setImage:[UIImage imageNamed:@"1437681890_45_Menu.png"] forState:UIControlStateNormal];
+    [customBtn setFrame:CGRectMake(0, 0, 20, 20)];
+    [customBtn addTarget:self action:@selector(showTypeFilter) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *typeBtn = [[UIBarButtonItem alloc] initWithCustomView:customBtn];
+    [self.navigationItem setLeftBarButtonItem:typeBtn];
+    
 }
 
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
@@ -123,6 +137,18 @@
     [self hideActivityIndicator];
     [productCollection reloadData];
 
+}
+
+- (void)loadCamera {
+    
+}
+
+- (void)showTypeFilter {
+    //typeFilterVC
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    TypeFilterViewController *typeFilterVC = [storyboard instantiateViewControllerWithIdentifier:@"typeFilterVC"];
+    [self.navigationController pushViewController:typeFilterVC animated:YES];
+    
 }
 
 -(void)requestDidFailWithError:(NSError *)error{

@@ -412,21 +412,21 @@
                                 <exclude reference="qw5-MO-WdA"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="0t4-7q-Fah"/>
+                                <exclude reference="Zbb-94-GnT"/>
+                                <exclude reference="ho6-gV-WIX"/>
+                                <exclude reference="rhH-Mh-eZV"/>
+                                <exclude reference="JZf-SX-2bf"/>
+                                <exclude reference="Mtm-N7-a8D"/>
+                                <exclude reference="cXL-zW-f1T"/>
+                                <exclude reference="ke6-uz-a1k"/>
+                                <exclude reference="qEo-ZZ-5pq"/>
                                 <exclude reference="4uO-7h-Kpm"/>
                                 <exclude reference="YAg-V7-TtD"/>
                                 <exclude reference="bT4-HZ-hR9"/>
                                 <exclude reference="1LB-rL-rxR"/>
                                 <exclude reference="ApG-sI-0Rm"/>
                                 <exclude reference="Kb3-Rh-zwX"/>
-                                <exclude reference="cXL-zW-f1T"/>
-                                <exclude reference="ke6-uz-a1k"/>
-                                <exclude reference="qEo-ZZ-5pq"/>
-                                <exclude reference="JZf-SX-2bf"/>
-                                <exclude reference="Mtm-N7-a8D"/>
-                                <exclude reference="0t4-7q-Fah"/>
-                                <exclude reference="Zbb-94-GnT"/>
-                                <exclude reference="ho6-gV-WIX"/>
-                                <exclude reference="rhH-Mh-eZV"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -436,21 +436,21 @@
                                 <include reference="qw5-MO-WdA"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="0t4-7q-Fah"/>
+                                <include reference="Zbb-94-GnT"/>
+                                <include reference="ho6-gV-WIX"/>
+                                <include reference="rhH-Mh-eZV"/>
+                                <include reference="JZf-SX-2bf"/>
+                                <include reference="Mtm-N7-a8D"/>
+                                <include reference="cXL-zW-f1T"/>
+                                <include reference="ke6-uz-a1k"/>
+                                <include reference="qEo-ZZ-5pq"/>
                                 <include reference="4uO-7h-Kpm"/>
                                 <include reference="YAg-V7-TtD"/>
                                 <include reference="bT4-HZ-hR9"/>
                                 <include reference="1LB-rL-rxR"/>
                                 <include reference="ApG-sI-0Rm"/>
                                 <include reference="Kb3-Rh-zwX"/>
-                                <include reference="cXL-zW-f1T"/>
-                                <include reference="ke6-uz-a1k"/>
-                                <include reference="qEo-ZZ-5pq"/>
-                                <include reference="JZf-SX-2bf"/>
-                                <include reference="Mtm-N7-a8D"/>
-                                <include reference="0t4-7q-Fah"/>
-                                <include reference="Zbb-94-GnT"/>
-                                <include reference="ho6-gV-WIX"/>
-                                <include reference="rhH-Mh-eZV"/>
                             </mask>
                         </variation>
                     </view>
@@ -466,7 +466,412 @@
             </objects>
             <point key="canvasLocation" x="1645.5" y="349.5"/>
         </scene>
+        <!--Type Filter View Controller-->
+        <scene sceneID="Ron-T8-6dX">
+            <objects>
+                <viewController storyboardIdentifier="typeFilterVC" id="UZE-fj-s2n" customClass="TypeFilterViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rNC-Gl-GcO"/>
+                        <viewControllerLayoutGuide type="bottom" id="uz5-h8-b4B"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vbo-cN-4N3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3sV-RH-sYB">
+                                <rect key="frame" x="16" y="30" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="O0s-cN-RWA"/>
+                                    <constraint firstAttribute="height" constant="80" id="OBw-qx-Jx7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="10"/>
+                                <inset key="titleEdgeInsets" minX="-60" minY="60" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="8" minY="-15" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="T-SHIRTS" image="1437592965_T-shirt.png">
+                                    <color key="titleColor" red="0.2439994318" green="0.84273357780000002" blue="0.77930368350000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="1" green="0.23742415259999999" blue="0.076378366719999993" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="OBw-qx-Jx7"/>
+                                        <exclude reference="O0s-cN-RWA"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="OBw-qx-Jx7"/>
+                                        <include reference="O0s-cN-RWA"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="filterClicked:" destination="UZE-fj-s2n" eventType="touchUpInside" id="jWm-e7-UTq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nJX-uQ-PNn">
+                                <rect key="frame" x="16" y="30" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="WR0-PK-VC8"/>
+                                    <constraint firstAttribute="height" constant="80" id="v4Q-Is-CaO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="10"/>
+                                <inset key="titleEdgeInsets" minX="-124" minY="60" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="3" minY="-4" maxX="0.0" maxY="10"/>
+                                <state key="normal" title="SHIRTS" image="1437593084_clothing_accesories_clothes_fabric-09.png">
+                                    <color key="titleColor" red="0.2439994318" green="0.84273357780000002" blue="0.77930368350000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="1" green="0.23742415259999999" blue="0.076378366719999993" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="WR0-PK-VC8"/>
+                                        <exclude reference="v4Q-Is-CaO"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="WR0-PK-VC8"/>
+                                        <include reference="v4Q-Is-CaO"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="filterClicked:" destination="UZE-fj-s2n" eventType="touchUpInside" id="Rgl-eR-0xu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gUg-lF-4va">
+                                <rect key="frame" x="16" y="30" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="DfC-oO-YWu"/>
+                                    <constraint firstAttribute="width" constant="80" id="zl9-9u-S2w"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="10"/>
+                                <inset key="titleEdgeInsets" minX="-124" minY="60" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="3" minY="-4" maxX="0.0" maxY="10"/>
+                                <state key="normal" title="TROUSERS" image="1437593199_alifashion014-512.png">
+                                    <color key="titleColor" red="0.2439994318" green="0.84273357780000002" blue="0.77930368350000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="1" green="0.23742415259999999" blue="0.076378366719999993" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="DfC-oO-YWu"/>
+                                        <exclude reference="zl9-9u-S2w"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="DfC-oO-YWu"/>
+                                        <include reference="zl9-9u-S2w"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="filterClicked:" destination="UZE-fj-s2n" eventType="touchUpInside" id="uPr-LA-rFn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Aw-Xp-1pu">
+                                <rect key="frame" x="16" y="30" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="4NN-fk-7Vk"/>
+                                    <constraint firstAttribute="height" constant="80" id="JwX-rX-15E"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="10"/>
+                                <inset key="titleEdgeInsets" minX="-124" minY="60" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="-4" maxX="0.0" maxY="10"/>
+                                <state key="normal" title="DENIM" image="1437593199_alifashion014-512.png">
+                                    <color key="titleColor" red="0.2439994318" green="0.84273357780000002" blue="0.77930368350000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="1" green="0.23742415259999999" blue="0.076378366719999993" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="4NN-fk-7Vk"/>
+                                        <exclude reference="JwX-rX-15E"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="4NN-fk-7Vk"/>
+                                        <include reference="JwX-rX-15E"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="filterClicked:" destination="UZE-fj-s2n" eventType="touchUpInside" id="1VE-Dg-Vef"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="beQ-q0-Oto">
+                                <rect key="frame" x="16" y="30" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="IqS-0c-F5L"/>
+                                    <constraint firstAttribute="height" constant="80" id="jFJ-fg-Zdn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="10"/>
+                                <inset key="titleEdgeInsets" minX="-46" minY="60" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="14" minY="-4" maxX="0.0" maxY="10"/>
+                                <state key="normal" title="SUITS" image="1437593456_Assistant.png">
+                                    <color key="titleColor" red="0.2439994318" green="0.84273357780000002" blue="0.77930368350000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="1" green="0.23742415259999999" blue="0.076378366719999993" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="IqS-0c-F5L"/>
+                                        <exclude reference="jFJ-fg-Zdn"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="IqS-0c-F5L"/>
+                                        <include reference="jFJ-fg-Zdn"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="filterClicked:" destination="UZE-fj-s2n" eventType="touchUpInside" id="Bm3-MC-VH0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="erd-dE-PbY">
+                                <rect key="frame" x="16" y="30" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="C0o-Yv-oDm"/>
+                                    <constraint firstAttribute="width" constant="80" id="uwU-qY-bR8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="10"/>
+                                <inset key="titleEdgeInsets" minX="-125" minY="60" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="-1" minY="-4" maxX="0.0" maxY="10"/>
+                                <state key="normal" title="ETHNIC WEAR" image="1437593372_alifashion012-512.png">
+                                    <color key="titleColor" red="0.2439994318" green="0.84273357780000002" blue="0.77930368350000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="1" green="0.23742415259999999" blue="0.076378366719999993" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="C0o-Yv-oDm"/>
+                                        <exclude reference="uwU-qY-bR8"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="C0o-Yv-oDm"/>
+                                        <include reference="uwU-qY-bR8"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="filterClicked:" destination="UZE-fj-s2n" eventType="touchUpInside" id="5o5-Km-ws9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGf-3R-61y">
+                                <rect key="frame" x="16" y="30" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="4Ly-nI-gS9"/>
+                                    <constraint firstAttribute="width" constant="80" id="AlJ-Rr-v03"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="10"/>
+                                <inset key="titleEdgeInsets" minX="-126" minY="60" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="-1" minY="-4" maxX="0.0" maxY="10"/>
+                                <state key="normal" title="OUTER WEAR" image="1437593372_alifashion012-512.png">
+                                    <color key="titleColor" red="0.2439994318" green="0.84273357780000002" blue="0.77930368350000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="1" green="0.23742415259999999" blue="0.076378366719999993" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="AlJ-Rr-v03"/>
+                                        <exclude reference="4Ly-nI-gS9"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="AlJ-Rr-v03"/>
+                                        <include reference="4Ly-nI-gS9"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="filterClicked:" destination="UZE-fj-s2n" eventType="touchUpInside" id="N3j-Cz-xll"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vxa-Bl-NzX">
+                                <rect key="frame" x="16" y="30" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="bk4-xx-cuG"/>
+                                    <constraint firstAttribute="width" constant="80" id="zFF-LI-QX5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="10"/>
+                                <inset key="titleEdgeInsets" minX="-125" minY="60" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="-4" maxX="0.0" maxY="10"/>
+                                <state key="normal" title="INNERS / SLEEPWEAR" image="1437593199_alifashion014-512.png">
+                                    <color key="titleColor" red="0.2439994318" green="0.84273357780000002" blue="0.77930368350000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="1" green="0.23742415259999999" blue="0.076378366719999993" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="zFF-LI-QX5"/>
+                                        <exclude reference="bk4-xx-cuG"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="zFF-LI-QX5"/>
+                                        <include reference="bk4-xx-cuG"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="filterClicked:" destination="UZE-fj-s2n" eventType="touchUpInside" id="tkv-44-lfw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zr1-vT-kbh">
+                                <rect key="frame" x="16" y="30" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="m3G-nd-YCb"/>
+                                    <constraint firstAttribute="width" constant="80" id="sLO-RT-2rf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="10"/>
+                                <inset key="titleEdgeInsets" minX="-65" minY="60" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="8" minY="-4" maxX="0.0" maxY="10"/>
+                                <state key="normal" title="ACTIVE WEAR" image="1437593237_Trousers.png">
+                                    <color key="titleColor" red="0.2439994318" green="0.84273357780000002" blue="0.77930368350000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="1" green="0.23742415259999999" blue="0.076378366719999993" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="sLO-RT-2rf"/>
+                                        <exclude reference="m3G-nd-YCb"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="sLO-RT-2rf"/>
+                                        <include reference="m3G-nd-YCb"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="filterClicked:" destination="UZE-fj-s2n" eventType="touchUpInside" id="g9D-0s-xcm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="nJX-uQ-PNn" secondAttribute="centerX" id="1nl-Hm-aM8"/>
+                            <constraint firstItem="zr1-vT-kbh" firstAttribute="top" secondItem="erd-dE-PbY" secondAttribute="bottom" constant="15" id="AT4-GQ-F5P"/>
+                            <constraint firstAttribute="centerX" secondItem="beQ-q0-Oto" secondAttribute="centerX" id="Amp-rP-qqG"/>
+                            <constraint firstAttribute="centerX" secondItem="vxa-Bl-NzX" secondAttribute="centerX" id="EOb-N9-W7b"/>
+                            <constraint firstItem="hGf-3R-61y" firstAttribute="top" secondItem="0Aw-Xp-1pu" secondAttribute="bottom" constant="15" id="EWP-k2-YRG"/>
+                            <constraint firstItem="3sV-RH-sYB" firstAttribute="leading" secondItem="vbo-cN-4N3" secondAttribute="leadingMargin" id="Ftj-xc-Sa7"/>
+                            <constraint firstItem="0Aw-Xp-1pu" firstAttribute="leading" secondItem="vbo-cN-4N3" secondAttribute="leadingMargin" id="H0N-gt-Thy"/>
+                            <constraint firstItem="zr1-vT-kbh" firstAttribute="trailing" secondItem="vbo-cN-4N3" secondAttribute="trailingMargin" id="IaW-pf-eiP"/>
+                            <constraint firstItem="3sV-RH-sYB" firstAttribute="top" secondItem="rNC-Gl-GcO" secondAttribute="bottom" constant="246" id="Kga-Bt-yYr">
+                                <variation key="heightClass=regular-widthClass=compact" constant="179"/>
+                            </constraint>
+                            <constraint firstItem="erd-dE-PbY" firstAttribute="top" secondItem="gUg-lF-4va" secondAttribute="bottom" constant="12" id="WFp-MZ-Pat"/>
+                            <constraint firstItem="nJX-uQ-PNn" firstAttribute="top" secondItem="rNC-Gl-GcO" secondAttribute="bottom" constant="246" id="Wa9-6a-X7A">
+                                <variation key="heightClass=regular-widthClass=compact" constant="179"/>
+                            </constraint>
+                            <constraint firstItem="beQ-q0-Oto" firstAttribute="top" secondItem="nJX-uQ-PNn" secondAttribute="bottom" constant="12" id="dSV-zs-v7a"/>
+                            <constraint firstItem="hGf-3R-61y" firstAttribute="leading" secondItem="vbo-cN-4N3" secondAttribute="leadingMargin" id="ecH-dh-HIU"/>
+                            <constraint firstItem="gUg-lF-4va" firstAttribute="trailing" secondItem="vbo-cN-4N3" secondAttribute="trailingMargin" id="evL-S0-tVa"/>
+                            <constraint firstItem="gUg-lF-4va" firstAttribute="top" secondItem="rNC-Gl-GcO" secondAttribute="bottom" constant="246" id="fNO-3N-7pu">
+                                <variation key="heightClass=regular-widthClass=compact" constant="179"/>
+                            </constraint>
+                            <constraint firstItem="0Aw-Xp-1pu" firstAttribute="top" secondItem="3sV-RH-sYB" secondAttribute="bottom" constant="12" id="h3A-xO-TUK"/>
+                            <constraint firstItem="erd-dE-PbY" firstAttribute="trailing" secondItem="vbo-cN-4N3" secondAttribute="trailingMargin" id="kX6-Zf-1XA"/>
+                            <constraint firstItem="vxa-Bl-NzX" firstAttribute="top" secondItem="beQ-q0-Oto" secondAttribute="bottom" constant="15" id="rER-ke-XYA"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="nJX-uQ-PNn"/>
+                                <exclude reference="gUg-lF-4va"/>
+                                <exclude reference="0Aw-Xp-1pu"/>
+                                <exclude reference="beQ-q0-Oto"/>
+                                <exclude reference="erd-dE-PbY"/>
+                                <exclude reference="hGf-3R-61y"/>
+                                <exclude reference="vxa-Bl-NzX"/>
+                                <exclude reference="zr1-vT-kbh"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="kX6-Zf-1XA"/>
+                                <exclude reference="WFp-MZ-Pat"/>
+                                <exclude reference="fNO-3N-7pu"/>
+                                <exclude reference="evL-S0-tVa"/>
+                                <exclude reference="h3A-xO-TUK"/>
+                                <exclude reference="H0N-gt-Thy"/>
+                                <exclude reference="EWP-k2-YRG"/>
+                                <exclude reference="ecH-dh-HIU"/>
+                                <exclude reference="IaW-pf-eiP"/>
+                                <exclude reference="AT4-GQ-F5P"/>
+                                <exclude reference="dSV-zs-v7a"/>
+                                <exclude reference="Amp-rP-qqG"/>
+                                <exclude reference="rER-ke-XYA"/>
+                                <exclude reference="EOb-N9-W7b"/>
+                                <exclude reference="Wa9-6a-X7A"/>
+                                <exclude reference="1nl-Hm-aM8"/>
+                                <exclude reference="Ftj-xc-Sa7"/>
+                                <exclude reference="Kga-Bt-yYr"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="nJX-uQ-PNn"/>
+                                <include reference="gUg-lF-4va"/>
+                                <include reference="0Aw-Xp-1pu"/>
+                                <include reference="beQ-q0-Oto"/>
+                                <include reference="erd-dE-PbY"/>
+                                <include reference="hGf-3R-61y"/>
+                                <include reference="vxa-Bl-NzX"/>
+                                <include reference="zr1-vT-kbh"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="kX6-Zf-1XA"/>
+                                <include reference="WFp-MZ-Pat"/>
+                                <include reference="fNO-3N-7pu"/>
+                                <include reference="evL-S0-tVa"/>
+                                <include reference="h3A-xO-TUK"/>
+                                <include reference="H0N-gt-Thy"/>
+                                <include reference="EWP-k2-YRG"/>
+                                <include reference="ecH-dh-HIU"/>
+                                <include reference="IaW-pf-eiP"/>
+                                <include reference="AT4-GQ-F5P"/>
+                                <include reference="dSV-zs-v7a"/>
+                                <include reference="Amp-rP-qqG"/>
+                                <include reference="rER-ke-XYA"/>
+                                <include reference="EOb-N9-W7b"/>
+                                <include reference="Wa9-6a-X7A"/>
+                                <include reference="1nl-Hm-aM8"/>
+                                <include reference="Ftj-xc-Sa7"/>
+                                <include reference="Kga-Bt-yYr"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3fa-zp-BQx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2569.5" y="-307.5"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="1437592965_T-shirt.png" width="64" height="64"/>
+        <image name="1437593084_clothing_accesories_clothes_fabric-09.png" width="128" height="128"/>
+        <image name="1437593199_alifashion014-512.png" width="128" height="128"/>
+        <image name="1437593237_Trousers.png" width="64" height="64"/>
+        <image name="1437593372_alifashion012-512.png" width="128" height="128"/>
+        <image name="1437593456_Assistant.png" width="48" height="48"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="UE9-yA-0lO"/>
     </inferredMetricsTieBreakers>
